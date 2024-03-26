@@ -44,6 +44,8 @@ INSERT INTO `produtos` (`id`, `nome`, `valor`, `status`) VALUES
 (4, 'Iphone 12', 4800, 'Vendido'),
 (5, 'PS2', 400, 'A Venda');
 
+UPDATE produtos SET status = 'Vendido' WHERE (id = 6);
+
 --
 -- Índices para tabelas despejadas
 --
